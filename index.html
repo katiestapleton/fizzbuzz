@@ -23,14 +23,29 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
-    <div></div>
-    <h1>Time for the FizzBuzz!</h1>
-    <p>
-      Time to throw a party up to 100! The drinks will fizz at multiples of
-      three. The news will buzz around at multiples of five. Now lets see if we
-      get to enjoy the Fizz and Buzz at the same time!
-    </p>
+    <div>
+      <div class="heading">
+        <h1>Time for the FizzBuzz!</h1>
+      </div>
+      <div class="intro">
+        <p>
+          Time to throw a party up to 100! The drinks will fizz at multiples of
+          three. The news will buzz around at multiples of five. Now lets see if
+          we get to enjoy the Fizz and Buzz at the same time!
+        </p>
+      </div>
+      <div class="fizzMath">
+        <button id="fizzBuzzMath" type="button" onclick="fizzBuzzMath()">
+          Calculate
+        </button>
+      </div>
+      <div class="fizzResults">
+        <!--span vs paragraph issue. unsure. span inside span??-->
+        <p id="fizzBuzzResults"></p>
+      </div>
+    </div>
 
     <script src="javascript.js"></script>
   </body>
